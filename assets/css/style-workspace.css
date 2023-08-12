@@ -12,12 +12,18 @@
     gap: 2rem;
 }
 
-.card {
+.card-w {
+    background-color: white;
+    width: 100vw;
+    height: 500px;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+}
+
+.card-r {
     background-color: red;
     width: 100vw;
     height: 500px;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
 }
