@@ -8,19 +8,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: auto;
     margin-block: 2rem;
     gap: 2rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: clamp(20rem, calc(20rem + 2vw), 22rem);
-    overflow: hidden;
-    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
-    border-radius: 1em;
     background-color: red;
-    width: 100%;
+    width: 100vw;
     height: 500px;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
