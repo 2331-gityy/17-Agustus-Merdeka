@@ -1,0 +1,78 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: white;
+    width: 100%;
+    display: flex;
+}
+nav img{
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 700px;
+}
+a{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red
+}
+.header{
+    text-align: center;
+    background-color: red;
+    background-size: 100%;
+    height: 500px;
+    padding: 28px;
+}
+.merah{
+    background: red;
+    background-size: 100%;
+    height: 400px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content:flex-end;
+}
+.putih{
+    background: rgb(224, 222, 222);
+    background-size: 100%;
+    height: 400px; 
+    padding: 20px ; 
+    align-items: center;
+    display: flex;
+}
+.judul{
+    font-size: 80px;
+}
+.paragraf{
+    font-size: 30px;
+}
+.foto{
+    width: 300px;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.kanan{
+    padding-right: 25px;
+}
+.kiri{
+    padding-left: 25px
+}
